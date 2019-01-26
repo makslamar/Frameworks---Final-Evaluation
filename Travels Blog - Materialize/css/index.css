@@ -13,9 +13,28 @@
 .icons-size {
   width: 30%;
   margin: 8%;
+  -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
 }
 
 .icons-size-small {
   width: 10%;
   margin: 2%;
+  -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+
+.blog-image {
+  max-width: 14rem;
+}
+
+.chip-icon{
+  float:right;
+  font-size: 26px;
+  line-height: 130%;
+  padding-left: 8px;
+}
+
+.text-blog {
+  text-align: justify;
 }
