@@ -1,3 +1,9 @@
+.body-back{
+  background-image: url("../img/back-dandelion.jpg");
+  background-color: #fff8e1;
+}
+
+
 .logo-size{
   width: 8.2rem;
 }
@@ -11,7 +17,7 @@
 }
 
 .icons-size {
-  width: 30%;
+  width: 40%;
   margin: 8%;
   -webkit-filter: grayscale(100%);
    filter: grayscale(100%);
@@ -25,16 +31,20 @@
 }
 
 .blog-image {
-  max-width: 14rem;
+  max-width: 28rem;
 }
 
 .chip-icon{
   float:right;
   font-size: 26px;
   line-height: 130%;
-  padding-left: 8px;
+  padding-left: 10px;
 }
 
 .text-blog {
   text-align: justify;
+}
+
+.comments-panel{
+  min-height: 23rem;
 }
