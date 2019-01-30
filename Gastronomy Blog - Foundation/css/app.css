@@ -1,0 +1,20 @@
+body{
+  background-color: #ffebee;
+}
+
+.header-color {
+   background-color: #b71c1c;
+   color: white;
+}
+
+.border-test{
+  border: solid #d32f2f 1px;
+}
+
+.empty-column{
+  min-height: 3rem;
+}
+
+.content-row{
+  padding-top: 2rem;
+}
