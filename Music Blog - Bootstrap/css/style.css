@@ -1,0 +1,100 @@
+/*BACKGROUND COLOR*/
+.cinema-body {
+  background-color: #e8eaf6;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#content-container{
+  background-color: #c5cae9;
+}
+
+.header-setup {
+  background-color: rgba(255,255,255,0.95);
+  height: 10rem;
+}
+
+.logo-img{
+  width: 30%;
+  margin-top: 3%;
+  min-width: 43px;
+}
+
+.empty-nav{
+  height: 6rem;
+}
+
+.buttons-nav{
+  background-color: #1a237e;
+}
+.text-color{
+  color: #9fa8da;
+}
+
+
+.icon-comments{
+   width: 3rem;
+   margin-right: 0.5rem;
+}
+
+.icon-search{
+   width: 2rem;
+   margin-right: 0.5rem;
+}
+
+.section-padding{
+    padding-top: 2rem;
+}
+
+.search-border{
+  border: solid #9fa8da 1px;
+  padding: 1rem;
+}
+
+.section-image{
+  width: 18rem;
+}
+
+@media (max-width:769px) {
+  .icons-svg-sm{
+    width: 2.1rem;
+    margin: 1%;
+  }
+
+  .networks{
+    text-align: center;
+  }
+
+
+  .center-small{
+    margin: auto;
+    width: 33%;
+  }
+
+  .nav-setup{
+    height: 11rem;
+  }
+  .margin-buttons{
+    margin: 0.4rem 0rem 0.4rem 0rem;
+  }
+  ul{
+  text-align: center;
+  width: 100%;
+  }
+
+}
+
+@media (min-width:770px) {
+  .icons-svg-sm{
+    width: 2.1rem;
+    float: right;
+    margin: 1%;
+  }
+
+  .margin-buttons{
+    margin: 0.4rem 2rem 0.4rem 2rem;
+
+  }
+
+}
