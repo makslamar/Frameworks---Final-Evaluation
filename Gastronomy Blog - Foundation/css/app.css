@@ -1,10 +1,41 @@
 body{
   background-color: #ffebee;
+  background-image: url("../img/back.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-color{
+  background-color: #ffebee;
+}
+
+.section-color{
+  background-color: #ff8a80;
+}
+
+.text-padding{
+   padding-top: 1rem; 
 }
 
 .header-color {
    background-color: #b71c1c;
    color: white;
+}
+
+.padding-normal{
+   padding: 1rem 1rem 0rem 1rem;
+}
+
+.padding-titles{
+   padding: 2.5rem 0rem 0rem 1rem;
+}
+
+.padding-fav{
+   padding: 0.3rem 1rem 0rem 1rem;
+}
+
+.text-color-normal{
+  color: #d32f2f;
 }
 
 .border-test{
@@ -17,4 +48,14 @@ body{
 
 .content-row{
   padding-top: 2rem;
+}
+
+.img-responsive {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.border-pic{
+  border: solid white 0.2rem;
 }
